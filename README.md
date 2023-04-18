@@ -1,5 +1,5 @@
 # hot-chocolate-apllo-client-subscriptions-sample
-A simple sample for GraphQL subscriptionf with HotChocolate and Apollo Client.
+A simple sample for GraphQL subscriptions with .Net 7, HotChocolate, Vue 3 and Apollo Client.
 
 ## Usage
 #### Install
