@@ -1,0 +1,20 @@
+schema {
+  query: DataItemsQuery
+  subscription: DataItemSubscriptions
+}
+
+type DataItem {
+  category: String
+  delivery: String
+  id: Int!
+  setup: String
+  type: String
+}
+
+type DataItemSubscriptions {
+  dataItem(itemId: Int!): DataItem
+}
+
+type DataItemsQuery {
+  dataItem(itemId: Int!): DataItem
+}

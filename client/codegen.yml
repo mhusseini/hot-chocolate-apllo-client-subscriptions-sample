@@ -1,0 +1,11 @@
+schema: http://localhost:5117/graphql
+overwrite: true
+generates:
+  src/types/schema.d.ts:
+    plugins:
+      - typescript
+  schema.graphql:
+    plugins:
+      - schema-ast
+    config:
+      includeDirectives: true

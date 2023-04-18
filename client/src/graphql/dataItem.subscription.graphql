@@ -1,0 +1,9 @@
+subscription DataItemSubscriptions($itemId: Int!) {
+    dataItem(itemId: $itemId) {
+        id
+        category
+        type
+        setup
+        delivery
+    }
+}
