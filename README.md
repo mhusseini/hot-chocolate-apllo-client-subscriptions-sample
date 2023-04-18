@@ -9,7 +9,7 @@ cd ./hot-chocolate-apllo-client-subscriptions-sample
 ```
 #### Server
 ```
-cd Server
+cd server
 dotnet run
 ```
 
